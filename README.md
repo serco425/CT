@@ -1,4 +1,4 @@
-# CT
+# CT - Contingency Tables for Stochastic Computing
 
 This is a special repository for our GLSVLSI'23 paper.
 
