@@ -1,0 +1,20 @@
+x = [false false false false false false true false];
+x_ = x';
+
+tic
+for i=1:1:100
+   x_D = b2d(x);
+end
+b2d_time = toc;
+
+tic
+for i=1:1:100
+   x_D = bi2de(x);
+end
+bi2de_time = toc;
+
+tic
+for i=1:1:100
+   x_D = bit2int(x_,8);
+end
+bit2int_time = toc;
